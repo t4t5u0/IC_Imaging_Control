@@ -1,9 +1,9 @@
 import ctypes
 
-from enum import Enum
+from enum import Enum, IntEnum
 
 
-class SinkFormats(Enum):
+class SinkFormats(IntEnum):
     Y800 = 0
     RGB24 = 1
     RGB32 = 2
